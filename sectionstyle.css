@@ -1,0 +1,110 @@
+﻿body{
+	background-color:white;
+	color:lightcoral;
+}
+
+
+h1 {
+	color:palegreen;
+	background-color:midnightblue;
+	margin:0;
+	padding:0;
+	font-fammily: times new roman;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+h2 {
+	background-color:palegreen;
+	color:aliceblue;
+	margin:0;
+	padding:0;
+	font-family: times new roman;
+	font-variant: small-caps;
+	letter-spacing: 1px;
+}
+
+h3 {
+	background-color:aliceblue;
+	color:navy;
+	margin:0;
+	padding:0;
+	font-family: times new roman;
+	text-transform: capitalize;
+}
+
+<!--lightcoral lightcyan, azure, lavenderblush, and aqua-->
+
+
+
+#p1 {
+	background-color:lavenderblush;
+	font-family:courier;
+}
+
+
+p.center {
+	text-align:center;
+}
+
+
+p.big{font-size:200%; border:1px solid black; padding:10px;margin:5px;}
+
+/*grouping selectors with same style definitions*/
+h1, h2, p {
+	margin:10px;
+	text-align:center;
+}
+
+a:link{color:pink; background-color:transparent; text-decoration:none;}
+a:hover{color:black; background-color:transparent; text-decoration:underline;}
+a:active{color:black;}
+a:visited{color:white;}
+
+span.note {
+font-size:120%;
+color:aqua;
+}
+
+/*********
+ol {
+	background-color: black;
+	padding: 0;
+}
+
+ol li {
+	background-color: white;
+	padding: 5px;
+	list-style-type:lower-alpha;
+}
+********/
+
+
+
+
+
+
+
+
+
+
+
+/*****************DIV STYLE, can do div id="name" #name*************************/
+div.test {
+	background-color:black;
+	color:white;
+	margin:5px;
+	padding:1px;
+}
+
+
+
+
+
+
+
+
+/*special style for a single element*/
+/*Class addesses groups of elements. only affects p now*/
+
+/**********padding adds a space inside the border. border shows box of the html element**************/

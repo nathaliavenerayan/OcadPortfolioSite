@@ -1,0 +1,94 @@
+﻿<!--lightcoral lightcyan, azure, lavenderblush, and aqua-->
+
+img{
+	width:100%;
+}
+
+body {
+	background-image:url("patternheader.jpg");
+	background-repeat: repeat-x;
+	padding:6px;
+	background-color:lavender; color:crimson;
+}
+
+header{
+	background-color:transparent;
+	color:white;
+	margin:0;
+	padding:0;
+	position:absolute;
+	top:0;
+	right:0;
+
+}
+nav{
+	line-height:20px;
+	position:absolute;
+	top:300px;
+	right:100px;
+	height:25px;
+	margin-bottom:1px;
+	text-align:right;
+
+}
+section{
+	background-color:white;
+	color:crimson;
+	width:500px;
+	min-height:500px;
+	position:absolute;
+	top:340px;
+	right:50px;
+	padding:5px;
+	border:1px solid palegreen;
+}
+iframe.test{
+	min-width:500px;
+	min-height:500px;
+	border:none;
+}
+
+aside {
+
+	position:absolute;
+	top:350px;
+	right:560px;
+	height:300px;
+	min-width:110px;
+	margin-right:5px;
+	padding:0;
+}
+
+iframe.aside{
+	position:relative;
+	top:0;
+	left:0;
+	width:105px;
+	height:300px;
+	border:none;
+	margin:0;
+	padding:0;
+	scrollbar:none;
+}
+
+
+
+
+/*****************NAV MENU*************************/
+ul#menu {padding: 0;}
+ul#menu li{display:inline;}
+
+ul#menu li a {
+	background-color: palegreen;
+	color:white;
+	font-family:courier;
+	padding:5px 25px;
+
+	text-decoration:none;
+	border-radius: 4px 4px 0 0;
+}
+
+ul#menu li a:hover {
+	background-color: aliceblue;
+}
+

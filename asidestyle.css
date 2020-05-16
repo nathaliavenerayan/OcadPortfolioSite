@@ -1,0 +1,43 @@
+﻿
+/*****************SIDE NAV BAR list style circle*************************/
+
+html {
+	overflow-x:hidden;
+}
+
+
+ul#sidenav {
+	font-family: courier;
+	display:block;
+	list-style-type:none;
+	text-align:left;
+	width:100px;
+	max-height: 300px;
+	margin:0;
+	padding:0;
+	background-color:crimson;
+	border:1px solid lavender;
+}
+
+ul#sidenav li a {
+	display:block;
+	color:pink;
+	text-decoration:none;
+	margin:0;
+	padding: 5px 8px;
+	border-bottom:5px solid lavender;
+
+}
+
+
+
+ul#sidenav li:last-child{
+	border-bottom:none;
+}
+
+ul#sidenav li a:hover {
+	background-color:lightcoral;
+	color:aliceblue;
+}
+
+
